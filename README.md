@@ -1,5 +1,8 @@
 # Ansible_testing_project_02
-Install Jenkins in a EC2 instance Ubuntu 18.04 using ansible playbook
+Install Jenkins in a EC2 instance Ubuntu 18.04 using ansible playbook. The following repos will be used:
+- https://github.com/geerlingguy/ansible-role-java.git
+- https://github.com/geerlingguy/ansible-role-jenkins.git
+
 
 
 # Overview
