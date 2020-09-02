@@ -1,0 +1,7 @@
+# Install Java
+- hosts: localhost
+  connection: local
+  become: True
+  become_user: root
+  roles:
+    - java
