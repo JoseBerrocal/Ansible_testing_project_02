@@ -19,10 +19,10 @@ jenkins_url_prefix: ""
 jenkins_java_options: "-Djenkins.install.runSetupWizard=false"
 
 # Plugin list can use the plugin name, or a name/version dict.
-jenkins_plugins: []
-#  - blueocean
-#  - name: influxdb
-#    version: "1.12.1"
+jenkins_plugins:
+  - blueocean
+  - name: influxdb
+    version: "1.12.1"
 
 jenkins_plugins_state: present
 jenkins_plugin_updates_expiration: 86400
