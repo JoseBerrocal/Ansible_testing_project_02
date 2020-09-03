@@ -47,18 +47,16 @@ cd Ansible_testing_project_02
 sh install_ansible.sh
 ```
 
-e. Update "nginx_ansible/roles/nginx/vars/main.yaml" with external IP of the EC2 instance
-
-f. Run Ansible
+e. Run Ansible
 ```bash
-cd nginx_ansible
-ansible-playbook -i inventory main.yaml
+cd jenkins_ansible
+ansible-playbook -i Inventory main.yaml
 ```
 
 d. Access the URL of the EC2 instance, the output can be the following
-![alt text](https://github.com/JoseBerrocal/Ansible_testing_project_01/blob/master/images/ansible_project_01_outoput.png)
+![alt text](https://github.com/JoseBerrocal/Ansible_testing_project_02/blob/master/images/ansible_project_02_outoput.png)
 
 
 ## Enhancements
 
-To improve the project it will be required to deploy several VM, install differet softwares.
+To improve the project it will be required to install ansible in a first EC2 instance to later install jenkins in a different EC2 instance
